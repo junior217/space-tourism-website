@@ -1,6 +1,6 @@
 export default function NavBar() {
   return (
-    <nav className="flex items-center justify-between p-4 bg-gray-800 text-white">
+    <nav className="mt-5 w-fill flex items-center justify-between p-4 bg-gray-800 text-white ">
       <div className="text-lg font-bold">Space Tourism</div>
       <ul className="flex space-x-4">
         <li><a href="/" className="hover:underline">Home</a></li>
