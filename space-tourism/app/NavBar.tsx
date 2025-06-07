@@ -11,9 +11,9 @@ export default function NavBar() {
       </div>
       <div className="w-2xl flex space-x-4 justify-center items-center py-4 bg-gradient-to-r backdrop-blur-md opacity-90 text-slate-100">
         <Link href="/" className='text-white font-se px-1.5 font-serif hover:text-white hover:font-bold focus:border-b-2 focus:border-b-white'>00 Home</Link>
-        <Link href="/" className='text-white font-se px-1.5 font-serif hover:text-white hover:font-bold focus:border-b-2 focus:border-b-white'>01 Destinations</Link>
-        <Link href="/" className='text-white font-se px-1.5 font-serif hover:text-white hover:font-bold focus:border-b-2 focus:border-b-white'>02 Crew</Link>
-        <Link href="/" className='text-white font-se px-1.5 font-serif hover:text-white hover:font-bold focus:border-b-2 focus:border-b-white'>03 Technology</Link>
+        <Link href="/destination" className='text-white font-se px-1.5 font-serif hover:text-white hover:font-bold focus:border-b-2 focus:border-b-white'>01 Destinations</Link>
+        <Link href="/crew" className='text-white font-se px-1.5 font-serif hover:text-white hover:font-bold focus:border-b-2 focus:border-b-white'>02 Crew</Link>
+        <Link href="/technologies" className='text-white font-se px-1.5 font-serif hover:text-white hover:font-bold focus:border-b-2 focus:border-b-white'>03 Technology</Link>
       </div>
     </nav>
   );
