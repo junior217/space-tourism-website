@@ -1,8 +1,12 @@
+'use client';
+
 import { spaceTourismData } from "../data"
-import { useState } from "react"
+import { useRouter } from "next/navigation"
+import Link from "next/link";
 
 export default function Destination() {
     
+   
 
     return (
         <>
