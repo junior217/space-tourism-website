@@ -20,7 +20,14 @@ export default function Destination() {
    
 
     return (
-        <main className="relative min-h-screen flex flex-col space-between ">
+        <main 
+        style={{
+          backgroundImage: "url('/destination/background-destination-desktop.jpg')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}
+        className="relative z-10 h-screen flex flex-col space-between ">
           <div className="absolute top-0 left-3 px-10">
             <h1 className="text-2xl text-slate-50 uppercase text-center mt-10">01 Pick your destination</h1>
           </div>
