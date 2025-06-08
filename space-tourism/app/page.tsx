@@ -3,7 +3,7 @@
 
 export default function Home() {
   return (
-    <main className={`my-40 px-20 grid grid-cols-[1fr_auto] gap-10`}>
+    <main className="bg-[url('/destination/background-destination-mobile.jpg') bg-cover bg-no-repeat h-screen my-40 px-20 grid grid-cols-[1fr_auto] gap-10">
     <div className="w-150 flex flex-col gap-5">
       <h2 className="text-3xl text-slate-50">So, you want to travel to</h2>
       <h1 className=" text-6xl text-slate-50 uppercase">Space...</h1>
