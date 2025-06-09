@@ -21,18 +21,10 @@ export default function Destination() {
    
 
     return (
-      
-        <main 
-        style={{
-          backgroundImage: "url('/destination/background-destination-desktop.jpg')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          minHeight: '100vh',
-        }}
-        className="relative flex flex-col space-between ">
+      <div className="wrapper-destination">
+        <main className="relative flex flex-col space-between ">
           <NavBar />
-          <div className="absolute top-20 left-3 px-10">
+          <div className="absolute top-25 left-3 px-10">
             <h1 className="text-2xl text-slate-50 uppercase text-center mt-10">01 Pick your destination</h1>
           </div>
           <div className="mt-15 pt-20 relative">
@@ -47,5 +39,6 @@ export default function Destination() {
             </div>
           </div>
         </main>
+      </div>
     )
 }

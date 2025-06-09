@@ -27,3 +27,20 @@ body {
   background-position: center;
   min-height: 100vh;
 }
+
+.wrapper-destination {
+  background-image: url('/destination/background-destination-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+
+.wrapper-crew {
+  background-image: url('/crew/background-crew-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
