@@ -30,7 +30,7 @@ export default function CrewPage(){
             <div>
                 <CurrentCrewMember />
             </div>
-            <div className="flex gap-3.5 justify-left items-center mb-15 mt-0 ml-[20%]">
+            <div className="flex gap-3.5 justify-left items-center mb-15 -mt-10 ml-[18%]">
                 <button onClick={() => setCurrentCrewMember(() => Douglas)} className="rounded-full w-[20px] h-[20px] bg-slate-600 focus:bg-slate-100"></button>
                 <button onClick={() => setCurrentCrewMember(() => Mark)} className="rounded-full w-[20px] h-[20px] bg-slate-600 focus:bg-slate-100"></button>
                 <button onClick={() => setCurrentCrewMember(() => Victor)} className="rounded-full w-[20px] h-[20px] bg-slate-600 focus:bg-slate-100"></button>
