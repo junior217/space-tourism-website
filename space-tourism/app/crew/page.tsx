@@ -28,13 +28,13 @@ export default function CrewPage(){
                 <h1 className="text-2xl text-left text-slate-100 mt-10 uppercase"> <span className="text-slate-600">02 </span> Meet Your Crew</h1>
             </div>
             <div>
-                <Douglas />
+                <CurrentCrewMember />
             </div>
-            <div className="flex justify-center items-end mb-10 mt-5">
-                <button onClick={() => setCurrentCrewMember(() => Douglas)}>1</button>
-                <button onClick={() => setCurrentCrewMember(() => Mark)}>2</button>
-                <button onClick={() => setCurrentCrewMember(() => Victor)}>3</button>
-                <button onClick={() => setCurrentCrewMember(() => Anousheh)}>4</button>
+            <div className="flex gap-3.5 justify-left items-center mb-15 mt-0 ml-[20%]">
+                <button onClick={() => setCurrentCrewMember(() => Douglas)} className="rounded-full w-[20px] h-[20px] bg-slate-600 focus:bg-slate-100"></button>
+                <button onClick={() => setCurrentCrewMember(() => Mark)} className="rounded-full w-[20px] h-[20px] bg-slate-600 focus:bg-slate-100"></button>
+                <button onClick={() => setCurrentCrewMember(() => Victor)} className="rounded-full w-[20px] h-[20px] bg-slate-600 focus:bg-slate-100"></button>
+                <button onClick={() => setCurrentCrewMember(() => Anousheh)} className="rounded-full w-[20px] h-[20px] bg-slate-600 focus:bg-slate-100"></button>
             </div>
             
          </main>
