@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Bellefair } from "next/font/google";
 
-import NavBar from "./NavBar";
+
 import "./globals.css";
 
 
@@ -28,9 +28,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${bellefair.className}`}     
-      >
-        <NavBar />
-        {children}
+      > 
+        {children}  
       </body>
     </html>
   );

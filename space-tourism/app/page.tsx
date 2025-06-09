@@ -1,10 +1,14 @@
 // import Router from "next/router";
-
+import NavBar from "./NavBar";
 
 export default function Home() {
   return (
+  <div className="wrapper">
+    <div className="py-4">
+    <NavBar />
+    </div>
     <main
-    className="my-40 px-20 grid grid-cols-[1fr_auto] gap-10">
+    className="mt-20 pt-4 px-20 grid grid-cols-[1fr_auto] gap-10">
     <div className="w-150 flex flex-col gap-5">
       <h2 className="text-3xl text-slate-50">So, you want to travel to</h2>
       <h1 className=" text-6xl text-slate-50 uppercase">Space...</h1>
@@ -13,7 +17,7 @@ export default function Home() {
     <div className="w-80 h-80 bg-slate-50 rounded-full flex justify-center items-center ">
       <h1 className="text-4xl uppercase">Explore</h1>
     </div>
-    
     </main>
+   </div>
   );
 }

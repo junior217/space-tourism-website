@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { CircleStarSVG, StraightLineSVG } from './components/SvgImg';
 export default function NavBar() {
   return (
-    <nav className="relative mt-5 w-fill flex items-center justify-between py-4 text-white ">
+    <nav className="relative mt-5 w-fill flex items-center justify-between py-4 text-white bg-inherit">
       <div className='ml-15 w-[50px] h-[50px] flex items-center justify-center'>
       <CircleStarSVG/>
       </div>
