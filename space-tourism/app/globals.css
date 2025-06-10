@@ -28,8 +28,18 @@ body {
   min-height: 100vh;
 }
 
+
+
 .wrapper-destination {
   background-image: url('/destination/background-destination-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.wrapper-destination-tablet {
+  background-image: url('/destination/background-destination-tablet.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -51,4 +61,15 @@ body {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+}
+
+
+@media (max-width: 767px) {
+  .wrapper {
+    background-image: url('/background-home-tablet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
 }
