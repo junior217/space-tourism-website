@@ -24,7 +24,7 @@ export default function Destination() {
       <div className="wrapper-destination">
         <main className="relative flex flex-col space-between ">
           <NavBar />
-          <div className="absolute top-45 left-3 px-10">
+          <div className="absolute top-35 left-3 px-10">
             <h1 className="text-2xl text-slate-50 uppercase text-center mt-10">01 Pick your destination</h1>
           </div>
           <div className="mt-15 pt-20 relative">
