@@ -5,8 +5,8 @@ export default function Moon() {
     const moonData = spaceTourismData[0].destinations[0];
     
     return (
-        <div className="mx-10 p-8 grid grid-cols-[1fr_1fr] gap-3 items-center justify-center">
-            <div className="ml-15 flex justify-center  rounded-full overflow-hidden">
+        <div className="lg:mx-10 lg:p-8 lg:grid lg:grid-cols-[1fr_1fr] lg:gap-3 lg:items-center lg:justify-center md:flex md:flex-col md:gap-5 md:items-center md:justify-center md:py-5">
+            <div className="lg:ml-15 lg:flex lg:justify-center  rounded-full overflow-hidden md:flex md:justify-center md:w-100 md:h-100 md:mr-0">
                 <Image
                     src={moonData.images.webp}
                     alt={moonData.name}
@@ -15,19 +15,19 @@ export default function Moon() {
                     className="w-auto h-auto"
                 />
             </div>
-            <div className="py-3 px-1 mr-6 w-100 flex flex-col gap-4">
+            <div className="lg:py-3 lg:px-1 lg:mr-6 lg:w-[80%] lg:flex lg:flex-col lg:items-stretch lg:gap-4 md:justify-center md:items-center md:px-2 md:mt-25 md:ml-15 md:w-2/3">
                 <div>
-                    <h1 className="text-6xl text-slate-50 uppercase ">{moonData.name}</h1>
+                    <h1 className="lg:text-6xl text-slate-50 uppercase md:text-8xl ">{moonData.name}</h1>
                 </div>
-                <div className="border-b-2 border-slate-100 pb-8">
-                    <p className="text-slate-300 text-lg">{moonData.description}</p>
+                <div className="border-b-2 border-slate-100 lg:pb-8 md:pb-9">
+                    <p className="text-slate-300 lg:text-lg lg:text-start md:text-xl md:text-center">{moonData.description}</p>
                 </div>
-                <div className="flex justify-between items-center mt-4">
-                    <p className="flex flex-col gap-0.5 text-slate-400 text-lg">
+                <div className="lg:flex lg:justify-center lg:gap-[50%] lg:items-center mt-4 md:flex md:items-center md:gap-10">
+                    <p className="lg:flex lg:flex-col gap-0.5 text-slate-400 text-lg md:text-2xl">
                         <span className="text-slate-400">Avg. distance: </span>
                         <span className="text-slate-50">{moonData.distance}</span>
                     </p>
-                    <p className="flex flex-col gap-0.5 text-slate-400 text-lg">
+                    <p className="lg:flex lg:flex-col gap-0.5 text-slate-400 text-lg md:text-2xl">
                         <span className="text-slate-400">Avg. distance: </span>
                         <span className="text-slate-50">{moonData.distance}</span>
                     </p>

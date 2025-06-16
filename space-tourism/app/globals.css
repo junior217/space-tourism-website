@@ -55,6 +55,14 @@ body {
   min-height: 100vh;
 }
 
+.wrapper-crew-tablet {
+  background-image: url('/crew/background-crew-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
 .wrapper-tech{
   background-image: url('/technology/background-technology-desktop.jpg');
   background-repeat: no-repeat;
@@ -63,6 +71,13 @@ body {
   min-height: 100vh;
 }
 
+.wrapper-tech-tablet{
+  background-image: url('/technology/background-technology-tablet.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
 
 @media (max-width: 767px) {
   .wrapper {
